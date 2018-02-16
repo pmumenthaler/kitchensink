@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<settings>
+  <mirrors>
+    <mirror>
+      <id>Nexus</id>
+      <name>Nexus Public Mirror</name>
+      <url>{{nexus_url}}</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+  <servers>
+  <server>
+    <id>nexus</id>
+    <username>{{nexus_admin}}</username>
+    <password>{{nexus_pw}}</password>
+  </server>
+</servers>
+</settings>
